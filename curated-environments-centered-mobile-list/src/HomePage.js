@@ -9,7 +9,7 @@ export default function HomePage() {
     <main className="min-h-screen bg-white text-gray-900">
       <nav className="sticky top-0 z-50 bg-white border-b shadow-sm py-4 px-6 flex justify-between items-center">
         <div className="flex items-center gap-3">
-          <img src="/logo.png" alt="Logo" className="w-[60px] h-[60px]" />
+          <img src="/logo.png" alt="Logo" className="w-[300px] h-[300px]" />
         </div>
         <div className="hidden md:flex gap-6 text-sm font-medium">
           <a href="#services" className="hover:underline">Services</a>
@@ -20,7 +20,7 @@ export default function HomePage() {
 
       <section className="bg-black text-white py-20 px-6 text-center">
         <div className="flex flex-col items-center justify-center">
-          <img src="/logo.png" alt="Curated Environments Logo" className="w-[100px] h-[100px] mb-6" />
+          <img src="/logo.png" alt="Curated Environments Logo" className="w-[500px] h-[500px] mb-6" />
           <h1 className="text-4xl md:text-6xl font-bold mb-4">Spaces That Inspire. Studios That Perform.</h1>
           <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
             Custom creative environments for content creators, musicians, and remote professionals—bridging space, tech, and personal brand.
