@@ -18,7 +18,7 @@ export default function HomePage() {
         </div>
       </nav>
 
-      <section className="bg-black text-white pt-3 pb-1 px-6 text-center"><div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
+      <section className="bg-black text-white pt-5 pb-1 px-6 text-center"><div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
         <div className="flex flex-col items-center justify-center">
           <img src="/CURATED ENVIRONMENTS FINAL DRAFT BLUE2.png" alt="Curated Environments Logo" className="w-[500px] h-auto mb-4 mx-auto" />
           <h1 className="text-3xl md:text-5xl font-bold mb-4">Spaces That Inspire. Studios That Perform.</h1>
@@ -60,21 +60,22 @@ export default function HomePage() {
         <div className="max-w-2xl mx-auto text-center">
           <h3 className="text-2xl font-semibold mb-2">Who We Work With</h3>
           
-<ul className="list-disc pl-6 text-left max-w-xl mx-auto text-lg space-y-2">
-  <li>Content Creators (streamers, podcasters, YouTubers)
-    <ul className="list-disc pl-6 mt-1 space-y-1">
+<ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 list-disc text-lg text-gray-800 text-center md:text-left mx-auto w-fit pl-4">
+  <li>
+    Content Creators (streamers, podcasters, YouTubers)
+    <ul className="list-disc pl-6 mt-2 text-sm text-center md:text-left">
       <li>Musicians, Producers & Vocalists</li>
     </ul>
   </li>
   <li>Remote Professionals & Freelancers</li>
   <li>Creative Startups & Agencies</li>
-  <li>Coworking Hubs and Shared Spaces
-    <ul className="list-disc pl-6 mt-1 space-y-1">
+  <li>
+    Coworking Hubs and Shared Spaces
+    <ul className="list-disc pl-6 mt-2 text-sm text-center md:text-left">
       <li>Students</li>
     </ul>
   </li>
 </ul>
-
         </div>
 </div>
 </section>
