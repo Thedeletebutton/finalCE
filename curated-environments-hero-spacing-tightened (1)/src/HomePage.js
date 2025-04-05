@@ -60,7 +60,7 @@ export default function HomePage() {
         <div className="max-w-2xl mx-auto text-center">
           <h3 className="text-2xl font-semibold mb-2">Who We Work With</h3>
           
-<ul className="list-disc pl-6 text-left max-w-xl mx-auto text-lg space-y-2">
+<ul className="list-disc pl-6 text-center max-w-xl mx-auto text-lg space-y-2">
   <li>Content Creators (streamers, podcasters, YouTubers)
     <ul className="list-disc pl-6 mt-1 space-y-1">
       <li>Musicians, Producers & Vocalists</li>
