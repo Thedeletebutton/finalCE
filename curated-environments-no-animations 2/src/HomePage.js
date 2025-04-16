@@ -26,7 +26,7 @@ export default function HomePage() {
           </p>
         </div>
 
-      </section>
+    <section>
 
         <h2 className="text-3xl font-bold mb-8">Our Services</h2>
         <div className="max-w-2xl mx-auto space-y-8 text-left">
@@ -43,8 +43,8 @@ export default function HomePage() {
             <p>Recommended tech setups with affiliate links and hands-on integration support.</p>
           </div>
         </div>
-</div>
-      </section>
+
+    </section>
 
 
         <h2 className="text-3xl font-bold mb-4">About Us</h2>
@@ -56,7 +56,10 @@ export default function HomePage() {
         </p>
         <div className="max-w-2xl mx-auto text-center">
           <h3 className="text-2xl font-semibold mb-2">Who We Work With</h3>
-          
+          </div>
+        </div>
+
+            
 
 <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 list-disc text-lg text-gray-800 text-center md:text-left mx-auto w-fit pl-4">
   <li>
