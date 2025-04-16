@@ -84,7 +84,7 @@ export default function HomePage() {
       </ul>
     </li>
   </ul>
-</div>
+
 </section>
 
         <h2 className="text-3xl font-bold mb-6">Connect With Us</h2>
