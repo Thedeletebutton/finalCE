@@ -57,7 +57,7 @@ export default function HomePage() {
         <div className="max-w-2xl mx-auto text-center">
           <h3 className="text-2xl font-semibold mb-2">Who We Work With</h3>
           </div>
-        </div>
+        
 
             
 
