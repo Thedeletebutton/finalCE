@@ -25,7 +25,7 @@ export default function HomePage() {
             Custom creative environments for content creators, musicians, and remote professionals—bridging space, tech, and personal brand.
           </p>
         </div>
-</div>
+
       </section>
 
         <h2 className="text-3xl font-bold mb-8">Our Services</h2>
